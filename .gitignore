@@ -16,6 +16,8 @@ compile_commands.json
 !.github/dependabot.yml
 !.github/workflows/
 !.editorconfig
+!.agent/
+!.agent/*
 
 bcachefs-principles-of-operation.*
 
