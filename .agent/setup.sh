@@ -15,3 +15,6 @@ if ! command -v cargo >/dev/null 2>&1; then
         sh -s -- -y --no-modify-path
     source "$HOME/.cargo/env"
 fi
+
+# Build the C library required by Rust tests
+make libbcachefs.a
